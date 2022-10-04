@@ -1,0 +1,11 @@
+name: Fist
+api: 4.0.0
+version: 1.0
+main: fist\Main
+author: AEDXDEV
+
+permissions:
+  command.admin:
+    default: op 
+  command.player:
+    default: true
