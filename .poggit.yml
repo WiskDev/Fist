@@ -4,5 +4,7 @@ branches:
 - main
 projects:
   Fist:
-    path: "icon.png"
+    path: ""
+      icon: "icon.png"
 ...
+
