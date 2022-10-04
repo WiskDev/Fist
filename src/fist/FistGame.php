@@ -146,7 +146,7 @@ class FistGame
 		return isset($this->scoreboards[$player->getName()]) ? $this->scoreboards[$player->getName()] : null;
 	}
 	
-	public function getWorld(?string $name = null){
+	public function getWorldByName(?string $name = null){
 		if($name == null){
 			$this->plugin->getServer()->getWorldManager()->loadWorld($this->getWorld());
 			return $this->plugin->getServer()->getWorldManager()->getWorldByName($this->getWorld());
